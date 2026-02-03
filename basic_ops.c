@@ -9,6 +9,7 @@ int add_numbers(int a, int b) {
 }
 
 int multiply_numbers(int a, int b) {
+    printf("Multiply some Numbers")
     return a * b;
 }
 
