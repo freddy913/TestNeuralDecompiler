@@ -2,6 +2,7 @@
 
 
 int multiply_numbers(int a, int b) {
+    printf("Multiply some Numbers\n");
     return a * b;
 }
 
