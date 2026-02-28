@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-void print_hello() {
-    printf("Hello World from Neural Decompiler Test!\n");
-}
-
 int add_numbers(int a, int b) {
     return a + b;
 }
@@ -21,9 +17,7 @@ int is_even(int number) {
     }
 }
 
-int main() {
-    print_hello();
-    
+int main() {  
     int sum = add_numbers(5, 10);
     int prod = multiply_numbers(5, 10);
     int even = is_even(prod);
