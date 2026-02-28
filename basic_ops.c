@@ -28,7 +28,7 @@ int main() {
     int prod = multiply_numbers(5, 10);
     int even = is_even(prod);
 
-    printf("Summe: %d, Produkt: %d, Gerade: %d\n", sum, prod, even);
+    printf("Sum: %d, Product: %d, Is Even: %d\n", sum, prod, even);
     
     return 0;
 }
