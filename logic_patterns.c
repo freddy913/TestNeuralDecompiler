@@ -28,7 +28,7 @@ int main() {
     int max_val = find_max(my_numbers, 5);
     float temp = celsius_to_fahrenheit(25.0);
 
-    printf("Fakultät: %d, Max: %d, Temp: %.2f\n", fact, max_val, temp);
+    printf("Factorial: %d, Max: %d, Temp: %.2f\n", fact, max_val, temp);
 
     return 0;
 }
