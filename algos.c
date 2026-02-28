@@ -2,7 +2,6 @@
 #include <math.h>
 
 int is_prime(int n) {
-    asm("");
     if (n <= 1) return 0;
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) {
@@ -13,7 +12,6 @@ int is_prime(int n) {
 }
 
 int fibonacci(int n) {
-    asm("");
     if (n <= 0) return 0;
     if (n == 1) return 1;
     
@@ -30,7 +28,6 @@ int fibonacci(int n) {
 }
 
 int has_duplicates(int arr[], int size) {
-    asm("");
     for (int i = 0; i < size; i++) {
         for (int j = i + 1; j < size; j++) {
             if (arr[i] == arr[j]) {
