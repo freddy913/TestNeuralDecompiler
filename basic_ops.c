@@ -15,9 +15,9 @@ int multiply_numbers(int a, int b) {
 
 int is_even(int number) {
     if (number % 2 == 0) {
-        return 1; // Wahr
+        return 1;
     } else {
-        return 0; // Falsch
+        return 0;
     }
 }
 
